@@ -1,14 +1,25 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link id="css" rel="stylesheet" href="css/style.css">
     <title>Usman Log In</title>
 </head>
 <body>
+    <section class="navb" id="navb">
+        <div class="navdiv">
+            <img class="logo" src="./img/logo.png" alt="">
+
+            <div class="modes">
+                <button class="normal" href="#" id="normal">Normal</button>
+                <button class="dark" href="#" id="dark">Dark</button>
+                <button class="blue" href="#" id="blue">Blue</button>
+            </div>
+        </div>
+    </section>
+
     <section class="login" id="login">
         <form action="">
             <div class="logd">
@@ -24,9 +35,8 @@
                         <input type="password" name="password" placeholder="password" required minlength="8">
                     </p>
                 </div>
-                <p class="bp"><button>Sign In</button></p>
+                <p class="bp"><button class="bt" href="#">Sign In</button></p>
                 <p class="lot">Don't have an account yet <a href="#" id="create"> Sign Up </a></p>
-                <p class="copy">Manny-B&copy;</p>
             </div>
         </form>
     </section>
@@ -53,14 +63,19 @@
                     </p>
                 </div>
                 <div class="sdiv2">
-                    <p class="sbp"><button>Sign Up</button></p>
+                    <p class="sbp"><button class="bt" href="#" id="signupb">Sign Up</button></p>
                     <p class="slot">Already have an account<a href="#" id="signin"> Sign In</a></p>
                 </div>
-                <p class="copy2">Manny-B&copy;</p>
             </div>
         </form>
     </section>
 
+    <!-- <section class="suc" id="suc">
+        <h2>Your Account Creation Has Been Completed Successfully</h2>
+        <p><button class="sbt">Log In</button></p>
+    </section> -->
+
+    <div class="copy" id="copy"><p class="copy2">Manny-B&copy;</p></div>
 
     <script src="./script.js"></script>
 </body>
