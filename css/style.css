@@ -149,10 +149,6 @@ a:hover{
 
 /* sign up */
 
-.signup{
-    display: none;
-}
-
 .signd{
     margin-top: 50px;
     margin-bottom: 50px;
@@ -258,5 +254,19 @@ h2{
 
     .copy, .copy2{
         font-size: 9px;
+    }
+
+    .logo{
+        height: auto;
+        width: 80px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    .normal, .dark, .blue{
+        height: 35px;
+        width: 60px;
+        margin-top: 10px;
+        font-size: 15px;
     }
 }  
